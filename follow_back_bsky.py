@@ -58,7 +58,6 @@ def is_valid_bsky_handle(handle: str, max_num_length: int = 2) -> bool:
     #return letters_part.isalpha() and (len(numbers_part) == 0 or len(numbers_part) <= max_num_length)
     return letters_part.isalpha() and (len(numbers_part) <= max_num_length)
 
-
 # Função para ler a whitelist de um arquivo TXT
 def contains_keyword(keywords, text):
     if text is None:
@@ -71,18 +70,6 @@ def contains_keyword(keywords, text):
         if word.lower() in text:
             return True
     return False
-
-"""
-def contains_keyword(keywords, text):
-    if text is None:
-        return False
-
-    text = text.lower()
-    for word in keywords:
-        if word.lower() in text:
-            return True
-    return False
-"""
 
 def load_keywords(filename='KEYWORDS.bsky'):
     try:
@@ -229,8 +216,6 @@ def follow_back(client, blacklist, keywords):
     print(f"\nSeguindo de volta {seguindo} usuários. Encontrados {blacklisted_found} seguidores na lista negra (não seguir de volta).")
     print(f"\nSeguidores: {len(followers)} Seguidos: {len(following) + seguindo } Diferença: {abs(len(followers)-len(following)) + seguindo }\n\n")
 
-
-
 # Função principal
 def main():
     client = Client()
@@ -248,26 +233,7 @@ def main():
         # Seguir de volta os seguidores
         follow_back(client, blacklist, keywords)
 
-        """
-        # Criar o registro da lista
-        response = client.com.atproto.repo.create_record({
-            'repo': USERNAME,  # Usando o DID da sessão
-            'collection': 'app.bsky.graph.list',
-            'record': nova_lista
-        })
-
-#        print(f"Response: {response}")
-
-        if response.validation_status == 'valid':
-            print("Lista criada com sucesso!")
-        else:
-            print(f"Erro ao criar lista: {response.validation_status}")
-        """
-
-#        profile = client.get_profile(actor="mudotelegram.bsky.social")
-#        profile = client.get_profile(actor=USERNAME)
-#        print(f"\n\nRicardo: {profile}")
-
+    
     except Exception as e:
         print(f'Erro: {e}')
 
