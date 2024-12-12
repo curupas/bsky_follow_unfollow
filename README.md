@@ -24,7 +24,7 @@ safado.com.edu
 
 #### KEYWORDS.bsky
 
-venda
+venda<BR>
 porn
 sexo
 promo
