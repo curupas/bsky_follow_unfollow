@@ -11,23 +11,23 @@ Os scripts confiam na existência de três arquivos: WHITELIST.bsky, BLACKLIST.b
 
 #### WHITELIST.bsky
 
-legal.bsky.social
-maislegal.bsky.social
-joia.com.br
+legal.bsky.social<BR>
+maislegal.bsky.social<BR>
+joia.com.br<BR>
 
 #### BLACKLIST.bsky
 
-tosco.bsky.social
-pilantra.bsky.social
-safado.com.edu
+tosco.bsky.social<BR>
+pilantra.bsky.social<BR>
+safado.com.edu<BR>
 
 
 #### KEYWORDS.bsky
 
 venda<BR>
-porn
-sexo
-promo
+porn<BR>
+sexo<BR>
+promo<BR>
 
 # ATENÇÃO!
 
