@@ -7,6 +7,3 @@ Os scripts confiam na existência de três arquivos: WHITELIST.bsky, BLACKLIST.b
 
 Esses arquivos acima mencionandos precisam ser criados ou o script irá falhar (em algum momento o script será atualizado para verificar graciosamente se existem ou não). :)
 
-Ainda não criei o requirements para o Python, mas é fácil descobrir. Vou criar "logo" também, assim como as instruções de uso. :)
-
-
