@@ -130,8 +130,6 @@ def unfollow_non_followers(client, whitelist):
     print(f"\nDeixando de seguir {deixando_seguir} usuários. Encontrados {whitelisted_found} seguidores na lista branca (continuar seguindo).")
     print(f"\nSeguidores: {len(followers)} Seguidos: {len(following)} Diferença: {abs(len(followers)-len(following))}\n\n")
 
-
-
 # Função principal
 def main():
     client = Client()
@@ -152,5 +150,3 @@ def main():
 # Executar o script
 if __name__ == '__main__':
     main()
-
-
