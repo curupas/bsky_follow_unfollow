@@ -10,19 +10,30 @@ Os scripts confiam na existência de três arquivos: WHITELIST.bsky, BLACKLIST.b
 ### Exemplos
 
 #### WHITELIST.bsky
+
 legal.bsky.social
+
 maislegal.bsky.social
+
 joia.com.br
 
 #### BLACKLIST.bsky
+
 tosco.bsky.social
+
 pilantra.bsky.social
+
 safado.com.edu
 
+
 #### KEYWORDS.bsky
+
 venda
+
 porn
+
 sexo
+
 promo
 
 # ATENÇÃO!
