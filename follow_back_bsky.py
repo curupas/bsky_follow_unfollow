@@ -20,16 +20,6 @@ decoded_pass_text = decoded_pass_bytes.decode("utf-8")
 USERNAME=decoded_user_text
 PASSWORD=decoded_pass_text
 
-# Definindo os parâmetros da nova lista
-nova_lista = {
-    '$type': 'app.bsky.graph.list',
-    'purpose': 'app.bsky.graph.defs#curatelist',
-    'name': 'Pals',
-    'description': 'My good pals',
-    'createdAt': datetime.utcnow().isoformat() + 'Z'
-}
-
-
 def is_valid_bsky_handle(handle: str, max_num_length: int = 2) -> bool:
     """
     Verifica se a parte antes do '@' no handle do Bluesky é composta por letras,
