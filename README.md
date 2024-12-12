@@ -9,5 +9,5 @@ Os scripts confiam na existência de três arquivos: WHITELIST.bsky, BLACKLIST.b
 
 # ATENÇÃO!
 
-Esses arquivos acima mencionandos precisam ser criados ou o script irá falhar (em algum momento o script será atualizado para verificar graciosamente se existem ou não). :)
+Esses arquivos acima mencionandos precisam ser criados ou o script irá falhar (em algum momento o script será atualizado para verificar graciosamente se esses arquivos existem ou não). :)
 
