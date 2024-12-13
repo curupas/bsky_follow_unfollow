@@ -8,7 +8,7 @@ Dois scripts em Python: O script follow_back_bsky.py utilizado para seguir de vo
 
 O usuário é lido da variável de ambiente USERNAME_BSKY e a senha da variável de ambiente PASSWORD_BSKY. Elas são armazenadas em Base64 para dificultar a leitura por alguém que está ao seu lado no computador enquanto por algum motivo são listadas as variáveis de ambiente. Não é uma proteção criptográfica. Os scripts em Python irão ler essas variáveis e decodificar o Base64 antes de usá-los no login. Abaixo um exemplo da codificação em Base64 em um ambiente linux. Note que podem existir diferenças nessas codificações ao usar Windows. Em outro momento explico essas diferenças. Para tornar essas variáveis permanentes você deve colocar as mesmas em um arquivo .bashrc (por exemplo) ou no Windows configurar apropriadamente nas propriedades/variáveis de ambiente de seu computador. Em algum momento futuro eu coloco um passo a passo aqui. :)
 
-(https://github.com/user-attachments/assets/3164e02b-19e2-4401-afd0-906fbda940af)
+https://github.com/user-attachments/assets/02e441e7-59e6-419c-9cd4-3e6d4396cb6b
 
 
 ## Arquivos Adicionais
