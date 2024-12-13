@@ -1,3 +1,22 @@
+"""
+Projeto: unfollow_bsky.py
+
+
+Direitos Autorais (C) 2024 : Ricardo Tavares 
+
+  Data: 2024-10-10
+Versão: 20241010.01
+
+AVISO: 
+       Este software é fornecido "como está", sem garantias de qualquer tipo, expressas ou implícitas, 
+       e em nenhum caso o autor ou os detentores dos direitos autorais serão responsáveis por quaisquer reivindicações, 
+       danos ou outras responsabilidades, seja em uma ação de contrato, tortura ou outra ação decorrente de, 
+       fora de ou em conexão com o software ou o uso ou outras negociações no software.
+
+RESTRIÇÕES:
+- Este software pode ser copiado, distribuído, ou modificado livremente.
+"""
+
 import time
 import base64
 import os
