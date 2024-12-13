@@ -2,7 +2,7 @@
 Projeto: follow_back_bsky.py
 
 
-Direitos Autorais (C) 2024 : José Ricardo S Tavares 
+Direitos Autorais (C) 2024 : Ricardo Tavares 
 
   Data: 2024-10-10
 Versão: 20241010.01
